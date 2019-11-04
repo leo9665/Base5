@@ -1,0 +1,96 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Creado por https://www.gitignore.io/api/osx,macos,bower,windows,composer
+# Editar en https://www.gitignore.io/?templates=osx,macos,bower,windows,composer
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registro
+.bower-tmp
+
+### Compositor ###
+compositor.phar
+/vendedor/
+
+# Confirme el archivo de bloqueo de su aplicación https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# Puede optar por ignorar un archivo de bloqueo de biblioteca http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+### Mac OS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# El icono debe terminar con dos \ r
+Icono
+
+# Miniaturas
+._ *
+
+# Archivos que pueden aparecer en la raíz de un volumen
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+Artículos temporales
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directorios potencialmente creados en el recurso compartido AFP remoto
+.AppleDB
+.AppleDesktop
+Carpeta de basura de red
+Artículos temporales
+.apdisk
+
+### OSX ###
+# General
+
+# El icono debe terminar con dos \ r
+
+# Miniaturas
+
+# Archivos que pueden aparecer en la raíz de un volumen
+
+# Directorios potencialmente creados en el recurso compartido AFP remoto
+
+### Windows ###
+# Windows archivos de caché en miniatura
+Thumbs.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Volcar archivo
+* .stackdump
+
+# Archivo de configuración de carpeta
+[Dd] esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$ RECYCLE.BIN /
+
+# Archivos de Windows Installer
+*.taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Atajos de Windows
+* .lnk
+
+# Fin de https://www.gitignore.io/api/osx,macos,bower,windows,composer
